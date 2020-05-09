@@ -7,7 +7,7 @@ margin:0;
 padding:0;
 }
 .menu{
-    position: relative;
+    position: fixed;
     top:0;
 width:100%;
 height:80px;
@@ -16,6 +16,43 @@ background-color: rgb(29, 29, 29);
 
 display: block;
 
+
+}
+.introvideo{
+    text-align: center;
+    color:white;
+    padding:200px;
+    text-transform: uppercase;
+    font-family: "raleway";
+}
+.welcome{
+    position: fixed;
+   opacity:0;
+    background-color: rgb(29, 29, 29);
+    background-size: cover;
+    display: inline-block;
+    z-index: 100;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 102, 75);
+    height:100%;
+    width:100%;
+    animation-name: fade;
+ animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+}
+@keyframes fade{
+    0%{opacity:1; }
+    75%{opacity:1;}
+    100%{opacity:0;}
+}
+.welcome h3{
+    position: relative;
+    top:50%;
+    
+    font-family: "raleway";
+    letter-spacing: 3px;
+    font-weight: 400;
 
 }
 .container {
@@ -28,7 +65,7 @@ display: block;
   
   .bar1, .bar2, .bar3 {
     width: 35px;
-    height: 5px;
+    height: 4px;
     background-color: rgb(150, 150, 150);
     margin: 6px 0;
     transition: 0.7s;
@@ -50,7 +87,7 @@ display: block;
 .logo{
     display: inline-block;      
 font-weight: 200;
-color:rgb(253, 255, 223);
+color:rgb(255, 102, 75);
 font-family: 'Raleway', sans-serif;
 letter-spacing: 2px;
 font-size:20px;
@@ -92,27 +129,53 @@ a{
     color: rgb(170, 170, 170);
 }
 li{
-    padding:10px;
+    padding:12px;
     text-decoration: none;
     display:inline-block;
     font-family: "raleway";
-font-size: 20px;
+font-size: 15px;
     text-transform: capitalize;
+    transition:0.5s ease-in-out;
 }
 
+li:hover{
+transform:translatey(-3px);
 
-.main{
+}
+.video{
 width: 100%;
 height:500px;
+background-color: rgb(0, 0, 0);
 
 }
 .footer{
     width:100%;
-    height:150px;
-    background-color: rgb(253, 255, 223);
-    color: rgb(29, 29, 29);
-    font-size: 25px;
+    height:250px;
+    font-family: "raleway";
+    background-color:rgb(255, 102, 75);
+    color: rgb(48, 48, 48);
+    font-size: 20px;
     text-align: center;
     padding-top:50px;
     text-transform: uppercase;
+}
+.footer h6{
+    position: relative;
+bottom:50px;
+    top:150px;
+}
+.line{
+border: 1px solid rgb(255, 0, 0);
+}
+.main{
+    width:100%;
+    height:600px;
+    background-color: rgb(29,29,29);
+}
+.line2{
+    border:1px solid rgb(224, 95, 72);
+    width :90%;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left:5%;
 }
