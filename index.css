@@ -49,6 +49,10 @@ display: block;
     font-family: "raleway";
 
 }
+.camtude{
+    color: rgb(80, 176, 255);
+    font-size: 10px;
+}
 .welcome{
     position: fixed;
    opacity:0;
@@ -61,7 +65,7 @@ display: block;
     
     text-transform: uppercase;
     text-align: center;
-    color: rgb(255, 102, 75);
+    color:#ffa500;
     height:100%;
     width:100%;
     animation-name: fade;
@@ -76,7 +80,7 @@ display: block;
 .welcome h3{
     position: relative;
     top:50%;
-    
+    font-size: 30px;
     font-family: "raleway";
     letter-spacing: 3px;
     font-weight: 400;
@@ -145,11 +149,13 @@ display: block;
 .logo{
     display: inline-block;      
 font-weight: 200;
-color:rgb(255, 102, 75);
+color:#ffa500;
 font-family: 'Raleway', sans-serif;
 letter-spacing: 2px;
-font-size:20px;
-padding:28px;
+font-size:30px;
+padding:20px;
+padding-left:50px;
+
 opacity:1;
 animation-name:move ;
 
@@ -189,7 +195,7 @@ opacity: 1;
 }
 a{
     text-decoration: none;
-    color: rgb(170, 170, 170);
+    color: rgb(150,150,150);
 
 }
 li{
@@ -219,8 +225,8 @@ background-color: rgb(0, 0, 0);
     height:250px;
     display: inline-block;
     font-family: "raleway";
-    background-color:rgb(255, 102, 75);
-    color: rgb(48, 48, 48);
+    background-color:rgb(29,29,29);
+    color: rgb(150,150,150);
     font-size: 20px;
     text-align: center;
     padding-top:50px;
@@ -241,11 +247,13 @@ bottom:50px;
 .projectcount{
 
     padding-top:30px;
-    padding-left:15%;
-    text-align: left;
+    padding-left:30px;
+    padding-right:30px;
+    display: inline-block;
+    text-align: center;
     font-size: 20px;
     text-transform: capitalize;
-    color: aliceblue;
+    color: rgb(150,150,150);
 }
 .sec{
     width: 100%;
@@ -253,17 +261,17 @@ bottom:50px;
     display: inline-block;
     margin:0;
 
-    background-color: black;
+    background-color: rgb(29, 29, 29);
 }
 .servicename{
     font-family: "raleway";
     text-align: center;
     padding:20px;
-    color:white;
+    color:rgb(150,150,150);
     text-transform: uppercase;
 }
 .servicecontent{
-    color:white;
+    color:rgb(150,150,150);
     padding:20px;
     width:50%;
     display: block;
@@ -271,7 +279,7 @@ bottom:50px;
     text-align: center;
 }
 .line2{
-    border:1px solid rgb(224, 95, 72);
+    border:1px solid #ffa500;
     width :90%;
     
     align-items: center;
@@ -280,8 +288,14 @@ bottom:50px;
 }
 
 .counter{
-    display: block;
+    display: inline-block;
     width:100%;
     height:100px;
-    background-color: rgb(17, 17, 17);
+    text-align: center;
+    background-color: rgb(29,29,29);
+}
+
+.projectcounter {
+    display:inline-block;
+    color:rgb(29, 29, 29)
 }
