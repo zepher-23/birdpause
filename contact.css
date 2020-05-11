@@ -10,6 +10,7 @@ input[type=text],textarea[type=text], input[type=password] {
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
+    border-radius: 5px;
     background: #e4e4e4;
   }
 .formname, p{
@@ -56,9 +57,13 @@ padding:0;
   
   /* Add padding to container elements */
   .contain {
-    display: block;
+   
+    display:block;
     padding: 16px;
     transition:0.5s ease-in-out;
+   
+    z-index: 1;
+     border-radius:10px;
   }
   
   /* The Modal (background) */
@@ -66,12 +71,13 @@ padding:0;
     position:relative;
     top:100px;
     width:50%;
-    height:500px;
-    margin-left:25%;
     
+    margin-left:25%;
+    border-radius:10px;
     align-items: center;
     display:inline-block;
-    
+   
+   
   }
 
   /* Modal Content/Box */
@@ -80,13 +86,13 @@ padding:0;
     background-color: rgb(29,29,29);
     margin:5px;
      /* 5% from the top, 15% from the bottom and centered */
-    border-radius:10px;
+     border-radius:10px;
      /* Could be more or less, depending on screen size */
   }
   
   /* Style the horizontal ruler */
   hr {
-    border: 1px solid #ff7777;
+    border: 0.5px solid #ffa500;
     margin-bottom: 25px;
   }
    
