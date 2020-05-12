@@ -1,4 +1,6 @@
 var y=true;
+
+$('.welcome').addClass('welcome2');
  function myFunction(x) {
     x.classList.toggle("change");
     $('.service').removeClass('active');

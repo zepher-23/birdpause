@@ -32,7 +32,7 @@ padding:0;
   }
   /* Set a style for all buttons */
   button {
-    background-color: #ffdb99;
+    background-color: #5CACEE;
     color: rgb(29,29,29);
     padding: 14px 20px;
     margin: 8px 0;
@@ -98,7 +98,7 @@ padding:0;
   
   /* Style the horizontal ruler */
   hr {
-    border: 0.5px solid #ffDB99;
+    border: 0.5px solid #5CACEE;
     margin-bottom: 25px;
   }
    
