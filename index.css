@@ -372,7 +372,7 @@ li:hover{
       justify-content: center;
       align-items: center;
       font-size: 2.5em;
-      color: rgba(190, 190, 190, 0.082);
+      color: rgba(72, 229, 195, 0.151);
       border-radius: 50%;
     z-index: -1;
       opacity: 0;
@@ -386,7 +386,7 @@ li:hover{
       content: attr(data-text);
       opacity: 1;
       left: 50%;
-      letter-spacing: 15px;
+      letter-spacing: 10px;
       width: 100px;
       height:10px;
     }
