@@ -169,9 +169,9 @@ animation-duration: 1s;
 }
 
 .sec{
-  position:static;
+  position:relative;
      display: inline-block;
-    width: 510px;
+    width: 33.333%;
     height:335px;
     overflow: hidden;
     margin: -2px;
@@ -502,3 +502,4 @@ color:rgb(255, 98, 216);
     margin-left:5%;
 }
 
+@media screen and (max-width: 300px)
