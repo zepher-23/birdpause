@@ -1,111 +1,25 @@
-.nav{
-    position: absolute;
-    right:100px;
-    top:15px;
-    
-    
-    text-align: center;
-    letter-spacing: 2px;
-    display:block;
-    visibility: hidden;
-    transition:0.2s ease-in-out;
-    opacity: 0;
-}
-.active{
-    display:block;
+.blogmain{
+  display: block;
+  margin-top:250px ;
+  text-align: center;
   
-    visibility: visible;
-opacity: 1;
-}
-.logo{
-    display: inline-block;      
-font-weight: 200;
-color:#5CACEE;
-font-family: 'Raleway', sans-serif;
-letter-spacing: 2px;
-font-size:30px;
-padding:20px;
-padding-left:50px;
-
-opacity:1;
-animation-name:move ;
-
-animation-duration: 1.5s;
-transition: 0.3s ease-in-out;
 }
 
-@keyframes move{
-    0%{transform:translateX(-3em);opacity: 0;}
-    75%{transform:translateX(-3em);opacity: 0;}
-    100%{transform:translatex(0);opacity: 1;}
+.blogmain h1{
+  display: block;
+  margin-top: 0%;
+  font-size: 8vw;
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.445);
+  text-transform: capitalize;
+  animation-name: blog;
+  animation-duration:2s;
 }
-.logo:hover{
-    cursor: pointer;
-   transform: translatey(-3px);
-    
+@keyframes blog{
+  0%{opacity: 0;transform: translateY(-30px);}
+  100%{opacity: 1;transform: translateY(0);}
 }
-.container {
-    display: inline-block;
-    cursor: pointer;
-    float: right ;
-    padding-top:20px;
-    padding-right: 20px;
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 4px;
-    background-color: rgb(150, 150, 150);
-    margin: 6px 0;
-    transition: 0.7s;
-  }
-  
-  .change .bar1 {
-    -webkit-transform:translatey(9px);
-    transform:translatey(9px) ;
-    opacity: 0;
-  }
-  
-  .change .bar2 {opacity: 1;}
-  
-  .change .bar3 {
-    -webkit-transform: translatey(-9px);
-    opacity: 0;
-    transform: translatey(-9px);
-  }
-  .service{
-    position: fixed;
-    top:80px;
-    z-index: 101;
-    display:none;
-    width:100%;
-    height:auto;
-    padding-bottom: 20px;
-    background-color: rgb(43, 43, 43); 
-     opacity:0;
-    transition: 0.8s ease-in-out;
-  transition-property: all;
+.fa-wrench{
+  padding:70px;
+  transform: scale(1.5);
 }
-  
-  .servicemenu{
-      display:block;
-      padding:30px;
-      text-transform: capitalize;
-      text-align: center;
-
-  }
-  .servicemenu:hover{
-    transform:translatex(3px);
-    color:#5CACEE;
-    cursor: pointer;
-  }
- 
-  .servicesec{
-      width:33%;
-      height:auto;
-      display: inline-block;
-      float:left;
-  }
- 
-  
-  
