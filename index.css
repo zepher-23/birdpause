@@ -52,7 +52,7 @@ padding:0;
     top:0;
 
 height:80px;
-background-color: #292929;
+background-color: #312F2F;
 z-index: 1000;
 
 display: block;
@@ -86,7 +86,7 @@ text-align: center;
    z-index: -5;
    opacity: 0;
    background-size: cover;
-   background-color: #292929;
+   background-color: #312F2F;
    animation-name: fade;
    animation-duration: 3s;
 }
@@ -104,7 +104,7 @@ text-align: center;
   height:50px;
   font-size: 70px;
 text-transform: capitalize;
-color:#48E5C2;
+color:#FF8A5B;
 animation-name: bpmove;
 animation-duration: 1s;
 }
@@ -150,7 +150,7 @@ animation-duration: 1s;
     width:100%;
     height:auto;
     padding-bottom: 20px;
-    background-color:#292929ef; 
+    background-color:#ffffffef; 
      opacity:0;
     transition: 0.8s ease-in-out;
   transition-property: all;
@@ -165,7 +165,7 @@ animation-duration: 1s;
   }
   .servicemenu:hover{
     transform:translatex(3px);
-    color:#FCFAF9;
+    color:#312F2F;
     cursor: pointer;
   }
  
@@ -177,7 +177,7 @@ animation-duration: 1s;
   }
   .aboutus{
     height:200px;
-    background-color: #48E5C2;
+    background-color: #FF8A5B;
   }
   .main{
     width:100%;
@@ -221,7 +221,7 @@ transition:0.5s ease-in-out;
   
   .sec:hover .servicecontent {
     
-    background-color:#48E5C2d5 ;
+    background-color:#FF8A5Bd5 ;
     bottom:21.9vw;
     visibility: visible;
 opacity:1;
@@ -232,8 +232,8 @@ opacity:1;
     transform: scale(1.05);
   }
   .sec:hover .servicename{
-    color:#48E5C2;
-    background-color: #292929ee;
+    color:#FF8A5B;
+    background-color: #312F2Fee;
     opacity: 1;
     transform:scale(1.1);
     top:-22.1vw;
@@ -262,11 +262,11 @@ opacity:1;
   visibility: hidden;
   bottom:0%;
     z-index: 0;
-    color:#292929;
+    color:#312F2F;
     width:100%;
     font-weight: 500;
     font-size: 1.1vw;
-    background-color:#48E5C2a6 ;
+    background-color:#FF8A5Ba6 ;
     overflow: hidden;
     padding:20px;
     
@@ -283,9 +283,9 @@ font-weight: 600;
     transition:0.3s ease-in-out;
   }
   .servicecontent a:hover{
-    color:#48E5C2;
+    color:#FF8A5B;
     
-    background-color: #292929;
+    background-color: #312F2F;
   }
 .container {
     display: inline-block;
@@ -351,7 +351,7 @@ transition: 0.5s ease-in-out;
   left:40px;
   bottom:80px;
   opacity: 0;
-  color:#48E5C2;
+  color:#FF8A5B;
 transition:0.5s ease-in-out
 }
 .logo:hover  .logobp{
@@ -453,7 +453,7 @@ background-color: rgb(0, 0, 0);
    
     text-align: center;
     font-family: "raleway";
-    background-color:#292929;
+    background-color:#312F2F;
     color: rgb(150,150,150);
     font-size: 20px;
     
@@ -541,7 +541,7 @@ color:rgb(255, 98, 216);
 }
 
 .line2{
-    border:0.5px solid #48E5C2;
+    border:0.5px solid #FF8A5B;
     width :90%;
     
     align-items: center;
@@ -613,7 +613,7 @@ padding:0;
     top:0;
 width:100%;
 height:80px;
-background-color: #292929;
+background-color: #312F2F;
 z-index: 1000;
 
 display: block;
@@ -647,7 +647,7 @@ text-align: center;
    z-index: -5;
    opacity: 0;
    background-size: cover;
-   background-color: #292929;
+   background-color: #312F2F;
    animation-name: fade;
    animation-duration: 3s;
 }
@@ -666,7 +666,7 @@ text-align: center;
   height:50px;
   font-size: 70px;
 text-transform: capitalize;
-color:#48E5C2;
+color:#FF8A5B;
 animation-name: bpmove;
 animation-duration: 1s;
 }
@@ -715,7 +715,7 @@ animation-duration: 1s;
     height:100%;
     overflow: scroll;
     padding-bottom: 20px;
-    background-color:#292929ef; 
+    background-color:#312F2Fef; 
      opacity:0;
      visibility: hidden;
     transition: 0.2s ease-in-out;
@@ -743,7 +743,7 @@ animation-duration: 1s;
   }
   .aboutus{
     height:200px;
-    background-color: #48E5C2;
+    background-color: #FF8A5B;
   }
   .main{
     width:100%;
@@ -787,15 +787,15 @@ transition:0.5s ease-in;
   
   .sec:hover .servicecontent {
     
-    background-color:#48E5C2d5 ;
+    background-color:#FF8A5Bd5 ;
     bottom:58vw;
 opacity:1;
 
 
   }
   .sec:hover .servicename{
-    color:#48E5C2;
-    background-color: #292929dc;
+    color:#FF8A5B;
+    background-color: #312F2Fdc;
     opacity: 1;
     transform:scale(1.1);
     top:-66vw;
@@ -822,10 +822,10 @@ opacity:1;
   opacity: 1;
   bottom:0%;
     z-index: 0;
-    color:#292929;
+    color:#312F2F;
  font-size: 3.5vw;
     font-weight: 500;
-    background-color:#48E5C2a6 ;
+    background-color:#FF8A5Ba6 ;
    
     padding:20px;
     
@@ -842,9 +842,9 @@ font-weight: 600;
     transition:0.3s ease-in-out;
   }
   .servicecontent a:hover{
-    color:#48E5C2;
+    color:#FF8A5B;
     
-    background-color: #292929;
+    background-color: #312F2F;
   }
 .container {
     display: inline-block;
@@ -904,6 +904,10 @@ transition: 0.3s ease-in-out;
    transform: translatey(-3px);
     
 }
+.logobp{
+  display: none;
+  visibility: hidden;
+}
 #Layer_1{
   display:inline-block;
   height:auto;
@@ -921,7 +925,7 @@ transition: 0.3s ease-in-out;
     top:80px;
     width: 100%;
     height:100px;
-    background-color: #292929f1;
+    background-color: #312F2Ff1;
     text-align: center;
     letter-spacing: 2px;
     display:block;
@@ -1003,7 +1007,7 @@ background-color: rgb(0, 0, 0);
    
     text-align: center;
     font-family: "raleway";
-    background-color:#292929;
+    background-color:#312F2F;
     color: rgb(150,150,150);
     font-size: 20px;
     
@@ -1100,7 +1104,7 @@ color:rgb(255, 98, 216);
 }
 
 .line2{
-    border:0.5px solid #48E5C2;
+    border:0.5px solid #FF8A5B;
     width :90%;
     
     align-items: center;
@@ -1175,7 +1179,7 @@ padding:0;
     top:0;
 width:100%;
 height:80px;
-background-color: #292929;
+background-color: #312F2F;
 z-index: 1000;
 
 display: inline-block;
@@ -1209,7 +1213,7 @@ text-align: center;
    z-index: -5;
    opacity: 0;
    background-size: cover;
-   background-color: #292929;
+   background-color: #312F2F;
    animation-name: fade;
    animation-duration: 3s;
 }
@@ -1228,7 +1232,7 @@ text-align: center;
   height:50px;
   font-size: 70px;
 text-transform: capitalize;
-color:#48E5C2;
+color:#FF8A5B;
 animation-name: bpmove;
 animation-duration: 1s;
 }
@@ -1276,7 +1280,7 @@ animation-duration: 1s;
     height:100%;
     overflow: scroll;
     padding-bottom: 20px;
-    background-color:#292929ef; 
+    background-color:#312F2Fef; 
      opacity:0;
      visibility: hidden;
     transition: 0.2s ease-in-out;
@@ -1305,7 +1309,7 @@ animation-duration: 1s;
   }
   .aboutus{
     height:200px;
-    background-color: #48E5C2;
+    background-color: #FF8A5B;
   }
  
   .main{
@@ -1351,7 +1355,7 @@ text-align: center;
   
   .sec:hover .servicecontent {
     
-    background-color:#48E5C2d5 ;
+    background-color:#FF8A5Bd5 ;
     bottom:28vw;
     
 opacity:1;
@@ -1359,8 +1363,8 @@ opacity:1;
 
   }
   .sec:hover .servicename{
-    color:#48E5C2;
-    background-color: #292929dc;
+    color:#FF8A5B;
+    background-color: #312F2Fdc;
     opacity: 1;
     transform:scale(1.1);
     top:-34vw;
@@ -1389,10 +1393,10 @@ opacity:1;
   bottom:0%;
   font-size:1.5vw;
     z-index: 0;
-    color:#292929;
+    color:#312F2F;
  
     font-weight: 500;
-    background-color:#48E5C2a6 ;
+    background-color:#FF8A5Ba6 ;
    
     padding:20px;
     
@@ -1409,9 +1413,9 @@ font-weight: 600;
     transition:0.3s ease-in-out;
   }
   .servicecontent a:hover{
-    color:#48E5C2;
+    color:#FF8A5B;
     
-    background-color: #292929;
+    background-color: #312F2F;
   }
 .container {
     display: inline-block;
@@ -1470,6 +1474,10 @@ transition: 0.3s ease-in-out;
     cursor: pointer;
    transform: translatey(-3px);
     
+}
+.logobp{
+  display: none;
+  visibility: hidden;
 }
 #Layer_1{
   display:inline-block;
@@ -1571,7 +1579,7 @@ background-color: rgb(0, 0, 0);
    
     text-align: center;
     font-family: "raleway";
-    background-color:#292929;
+    background-color:#312F2F;
     color: rgb(150,150,150);
     font-size: 20px;
     
@@ -1661,7 +1669,7 @@ color:rgb(255, 98, 216);
 }
 
 .line2{
-    border:0.5px solid #48E5C2;
+    border:0.5px solid #FF8A5B;
     width :90%;
     
     align-items: center;
