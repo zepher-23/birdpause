@@ -351,7 +351,7 @@ transition: 0.5s ease-in-out;
   left:40px;
   bottom:80px;
   opacity: 0;
-  color:#44CFCB;
+  color:#000000;
 transition:0.5s ease-in-out
 }
 .logo:hover  .logobp{
